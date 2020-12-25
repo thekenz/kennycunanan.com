@@ -5,6 +5,21 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+  plugins: [
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        custom: {
+          families: ['Millik'],
+          urls: ['/css/webfonts/millik.css']
+        }
+      }
+    },
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        icon: 'src/assets/favicon.ico'
+      },
+    }
+  ]
 }

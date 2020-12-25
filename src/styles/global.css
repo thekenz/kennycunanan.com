@@ -1,0 +1,104 @@
+@font-face {
+	font-family: 'MillikRegular';
+	src: url('../styles/webfonts/millik.eot');
+	src: url('../styles/webfonts/millik.eot?#iefix') format('embedded-opentype'),
+             url('../styles/webfonts/millik.woff2') format('woff2'),
+	     url('../styles/webfonts/millik.woff') format('woff'),
+	     url('../styles/webfonts/millik.ttf') format('truetype'),
+	     url('../styles/webfonts/millik.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+:root {
+    --key:  #E252C2;
+    --text: #001921;
+    --background: #FAF7F4;
+}
+
+html {
+    background-color: var(--background);
+}
+
+div.main-section {
+    width: 1246px;
+    margin: 0 auto 0 auto;
+}
+
+header {
+    height: 136px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px 0 24px;
+}
+
+span.item {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    margin: 16px;
+}
+
+h1.logo {
+    font-family: 'MillikRegular';
+    font-size: 28px;
+    color: var(--text);
+}
+
+img {
+    width: auto;
+    height: 566px;
+    float: right;
+    margin-right: 96px;
+}
+
+div.text-box {
+    float: right;
+    width: 432px;
+    height: 566px;
+    margin: 32px;
+}
+
+h2.subtitle {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: var(--text)
+}
+
+h1.title {
+    font-family: 'MillikRegular';
+    font-size: 96px;
+    margin: 10px auto 10px auto;
+    color: var(--text);
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: var(--text);
+}
+
+button {
+    border: none;
+    font-family: 'MillikRegular';
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 36px 20px 0 0;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+button.cta1 {
+    background-color: var(--key);
+    color: var(--background);
+    }
+
+button.cta2 {
+    background-color: var(--background);
+    color: var(--key);
+    border: solid 2px;
+    border-color: var(--key);
+    }
